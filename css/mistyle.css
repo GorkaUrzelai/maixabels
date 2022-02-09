@@ -1,9 +1,39 @@
-    #awards.resume-section {
-        display: flex;
-        align-items: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        max-width: 100rem;
+#awards.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 100rem;
+}
+
+
+/*CONTACT*/
+
+.contact-details {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.contact-details li {
+    padding-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+    .map-responsive {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
     }
+    .map-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
