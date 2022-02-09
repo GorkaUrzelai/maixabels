@@ -11230,6 +11230,7 @@ section.resume-section {
     padding-right: 1rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    width: 100vw;
 }
 
 section.resume-section .resume-section-content {
